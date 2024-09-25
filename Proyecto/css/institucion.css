@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+
+    
+}
+
+
+
+
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.header p {
+    color: red;
+}
+
+
+.nav-bar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(16, 124, 224);;
+}
+
+.nav-list li.centro{
+    margin: 0 15px;
+    
+    
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-list a:hover {
+    color:  rgb(16, 124, 224);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.main-content {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px ;
+    
+}
+
+.content {
+    max-width:150;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid rgb(74, 32, 228) !important;
+    width: 1000px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+}
+
+p{
+   text-align: center; 
+}
+
+
+nav.centros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.centros li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    transition: transform 0.2s;
+}
+
+nav.centros li:hover {
+    transform: scale(1.15);
+    background-color: rgb(16, 124, 224);;;
+}
+
+li.inicio {
+    background-color: #28b935;
+    color: #fff;
+}
+
+li.centro {
+    background-color: #333;
+    color: #fff;
+}
+
+h4{
+    text-align: center;
+}
